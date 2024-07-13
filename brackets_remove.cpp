@@ -10,8 +10,8 @@ int main(int argc, char*argv[])
      {
           DEFAULT,             // Basic state
           DEFAULT_SLASH,       // State after '/' in basic state
-          SLASHSLASH,          // Such comment as "//this is the C++-style comment"
-          SLASHSTAR,           // Such comment as "//this is the C-style comment"
+          SLASHSLASH,          // Such comment as "//this is a C++-style comment"
+          SLASHSTAR,           // Such comment as "/*this is a C-style comment*/"
           SLASHSTAR_STAR,      // State after '*' in SLASH_STAR state   
           SINGLEQUOTES,        // State after "'" in DEFAULT state
           SINGLEQUOTES_SLASH,  // State after "/" in SINGLEQUOTES state
